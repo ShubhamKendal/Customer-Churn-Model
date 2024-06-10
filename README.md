@@ -14,14 +14,13 @@ Steps I followed to make the Prediction model are as follows :-
 •	Then, I have converted the Categorical data into Numerical data by using the sklearn library of Python.
 
 •	EDA : I have done these steps while performing the EDA on the dataset :
-1.	Shape of the data i.e. Total number of rows and columns.
-2.	Compute the Five Number Summary.
-3.	Find the different column names that we have in our data.
-4.	Find the no. of unique values present in each column.
-5.	Then, I found is there any null values present in the dataset and found that there are no null values present in the data.
-6.	Compute Correlation matrix of our data try to find out the correlation between our target variable i.e. Churn and other columns.
-7.	Then by using the Seaborn library I plot pairplot for the data.
-8.	Plot the histogram for the Monthly Charges and Total Charges.
+1.	Compute the Five Number Summary.
+2.	Find the different column names that we have in our data.
+3.	Find the no. of unique values present in each column.
+4.	Then, I found is there any null values present in the dataset and found that there are no null values present in the data.
+5.	Compute Correlation matrix of our data try to find out the correlation between our target variable i.e. Churn and other columns.
+6.	Then by using the Seaborn library I plot pairplot for the data.
+7.	Plot the histogram for the Monthly Charges and Total Charges.
  The conclusion I get after performing EDA is that by using correlation matrix, we can see that there are certain columns which are highly correlated with the target column. So, as a result we drop that columns from the data to make our model more precise and faster.
 
 •	Now, we can see that the difference between the values of column named as Tenure and Monthly Charges and Total Charges are very high which can affect the precision and accuracy of our model. So, to resolve that issue I have done scaling on these columns where I have used MinMaxScaler from sklearn  library of Python.
