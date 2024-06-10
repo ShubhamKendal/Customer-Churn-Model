@@ -10,6 +10,7 @@ Steps I followed to make the Prediction model are as follows :-
 
 •	In starting I import the dataset by using the Pandas library of Python.
 
+
 •	Then, I have converted the Categorical data into Numerical data by using the sklearn library of Python.
 
 •	EDA : I have done these steps while performing the EDA on the dataset :
@@ -35,6 +36,6 @@ Steps I followed to make the Prediction model are as follows :-
 
 •	The accuracy of my Random Forest Prediction model is 79.25%.
 
-The problem that I have faced during building the model is that earlier while fitting the model the error which says “cannot convert string into float” that means there is a chance of presence of some categorical data or the presence of null values. I have checked both the issues by using the code in jupyter but it is showing no null values present in the model then when I looked in the csv file of data, I have found that there are some blank cells in Total Charges columns so then again, I used code to detect the presence of null values but still it is not showing then I have deleted that empty cells from the file and build the model.
+The problem that I have faced during building the model is that i want to improve the accuracy of the model but i just got the 79.25% highest R-square value for my model.
 
 Thank You.
